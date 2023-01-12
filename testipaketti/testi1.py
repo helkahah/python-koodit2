@@ -1,4 +1,4 @@
-# terkut ohjelman lukijalle o/
+# moduuli 1 tehtävä 1
 
 print("Hei, Helka Hahkio!")
-# mitäs sitte?
+
