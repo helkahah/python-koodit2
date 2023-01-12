@@ -1,4 +1,4 @@
 # terkut ohjelman lukijalle o/
 
-print("Täs on eka printti pythonilla!")
+print("Hei, Helka Hahkio!")
 # mitäs sitte?
