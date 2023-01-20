@@ -1,4 +1,4 @@
-#tehtävä 5
+# tehtävä 5
 
 O_tunnus = str('python')
 O_salasana = str('rules')
