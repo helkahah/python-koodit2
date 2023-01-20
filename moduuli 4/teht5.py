@@ -14,8 +14,8 @@ while yritys>0:
         print('Käyttäjätunnus tai salasana on väärin.')
         yritys = yritys-1
     elif tunnus==O_tunnus and salasana==O_salasana:
-        yritys = 0
         print('Tervetuloa')
+        break
 
 if yritys==0 and (tunnus!=O_tunnus or salasana!=O_salasana):
     print('Pääsy evätty')
