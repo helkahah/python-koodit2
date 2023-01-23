@@ -13,5 +13,5 @@ while luku!="":
     else:
         luku = input('Anna luku: ')
 if luku=="":
-    print('Suurin luku on: ' + str(suurin))
-    print('Pienin luku on ' + str(pienin))
+    print(f'Suurin luku on {suurin}')
+    print(f'Pienin luku on {pienin}')
