@@ -1,11 +1,11 @@
 # moduuli 5 tehtävä 1
 import random
 
-nopat = []
 heitot = int(input('Anna arpakuutioiden lukumäärä: '))
+total = 0
 
 for heitot in range(heitot):
     noppa = random.randint(1, 6)
-    nopat.append(noppa)
+    total = total+noppa
 
-print(nopat)
+print(f'Silmälukujen summa on: {total}')
