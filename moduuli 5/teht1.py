@@ -6,6 +6,6 @@ total = 0
 
 for heitot in range(heitot):
     noppa = random.randint(1, 6)
-    total = total+noppa
+    total += noppa
 
 print(f'Silmälukujen summa on: {total}')
