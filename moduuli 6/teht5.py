@@ -7,7 +7,7 @@ def lista_fun(lista):
 
 lista = [1, 2, 3, 4, 5]
 lista2 = lista.copy()
-lista_fun(lista)
+lista_fun(lista2)
 print(lista)
 print(lista2)
 
