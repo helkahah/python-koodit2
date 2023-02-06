@@ -16,7 +16,7 @@ halkaisija = float(input('Anna toisen pizzan halkaisija: '))
 hinta = float(input('Anna toisen pizzan hinta: '))
 pizza2 = lasku(halkaisija, hinta)
 
-#print(f'{pizza1:.2f}€/m^2, {pizza2:.2f}€/m^2')
+print(f'{pizza1:.2f}€/m^2, {pizza2:.2f}€/m^2')
 
 if pizza2<pizza1:
     print('Toinen pizza antaa paremman vastineen rahalle.')
