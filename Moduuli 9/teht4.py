@@ -35,7 +35,7 @@ while kilpailu:
         auto.Kiihdytä()
         auto.Kulje(1)
         if auto.matka>=10000:
-            print(f"Auto {auto.rekkari} Klki 10000km ensimmäisenä, aikaa kului {aika} tuntia")
+            print(f"Auto {auto.rekkari} Kulki 10000km ensimmäisenä, aikaa kului {aika} tuntia")
             print("")
             kilpailu = False
         else:
