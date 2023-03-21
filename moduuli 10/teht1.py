@@ -31,7 +31,6 @@ class Hissi:
         else:
             return
 
-
 h = Hissi(1, 8)
 h.siiry_kerrokseen(5)
 print("Hissi palaa alimpaan kerrokseen")
