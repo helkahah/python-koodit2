@@ -19,6 +19,7 @@ class Auto:
 
     def kulje(self):
         self.matka += self.nopeus
+        return
 
 class Sähköauto(Auto):
     def __init__(self, rekkari, hnopeus, akkukapasiteetti):

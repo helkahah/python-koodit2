@@ -22,6 +22,7 @@ class Lehti(Julkaisu):
     def tulosta_tiedot(self):
         print("Lehden tiedot")
         print(f"Nimi: {self.nimi}, Päätoimittaja: {self.päätoimittaja}")
+        return
 
 
 
