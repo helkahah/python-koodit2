@@ -3,6 +3,7 @@ import json
 from flask import Flask, Response, jsonify
 
 app = Flask(__name__)
+app.config['JSON_SORT_KEYS'] = False
 
 def connect_db():
     return mysql.connector.connect(
@@ -31,7 +32,6 @@ def kenttä(icao):
         "Name": result[1],
         "Municipality": result[2]
     }
-    app.config['JSON_SORT_KEYS'] = False
     return jsonify(vastaus)
 
 @app.errorhandler(404)
