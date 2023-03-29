@@ -20,7 +20,7 @@ def get_airport(icao):
     cursor = connection.cursor()
     cursor.execute(query)
     result = cursor.fetchone()
-    print(result)
+    #print(result)
     return result
 
 @app.route('/kenttä/<icao>')
@@ -31,6 +31,7 @@ def kenttä(icao):
         "Name": result[1],
         "Municipality": result[2]
     }
+    app.config['JSON_SORT_KEYS'] = False
     return jsonify(vastaus)
 
 @app.errorhandler(404)
