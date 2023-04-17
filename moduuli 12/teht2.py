@@ -4,7 +4,7 @@ import requests
 hakusana = input("Anna paikkakunnan nimi: ")
 
 pyyntö = "https://api.openweathermap.org/data/2.5/weather?q=" + hakusana + \
-         "&units=metric&lang=fi&appid=f26e539d38ff2bf99b3737dac9ad3a6e"
+         "&units=metric&lang=fi&appid=yourappkeyhere"
 
 print("tässä on hakulause:")
 print(pyyntö)
